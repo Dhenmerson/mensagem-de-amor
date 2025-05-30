@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Solar Interativo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+</head>
+<body>
+    <div class="hero">
+        <canvas id="solarSystem"></canvas>
+        <div class="rocket" id="rocket">
+            <div class="rocket-body">
+                <div class="rocket-top"></div>
+                <div class="rocket-window"></div>
+                <div class="rocket-fins"></div>
+            </div>
+            <div class="rocket-flame"></div>
+        </div>
+        <div class="planet-info" id="planetInfo">
+            <h2 id="planetName"></h2>
+            <p id="planetDescription"></p>
+            <div class="love-days" id="loveDays"></div>
+        </div>
+        <button class="back-button" id="backButton">Voltar aos Planetas</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
